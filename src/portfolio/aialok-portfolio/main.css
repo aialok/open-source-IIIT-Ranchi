@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: georgia;
+    box-sizing: border border-box;
+
+}
+
+body {
+    background: rgb(25,82,93);
+    background: linear-gradient(90deg, rgba(25,82,93,1) 1%, rgba(38,101,124,1) 15%, rgba(43,99,124,1) 29%, rgba(6,33,47,1) 62%);
+
+}
+
+.navbar {
+    background: rgb(25,82,93);
+background: linear-gradient(90deg, rgba(25,82,93,1) 1%, rgba(38,101,124,1) 15%, rgba(43,99,124,1) 29%, rgba(6,33,47,1) 61%);
+    position: sticky;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(108, 108, 116);
+    font-family: Georgia;
+    border-bottom: 0px solid black;
+    box-shadow: 0 4px 10px 0 rgba(240, 240, 237, 0.5);
+}
+
+
+.imgsrc {
+    width: auto;
+    height: auto;
+}
+
+.navbar ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+.navbar li {
+    float: left;
+    margin: 17px 6px;
+    padding: 10px 19px;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+.navbar li:hover{
+    text-shadow: 1px 1px 2px rgb(248, 243, 243), 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(108, 108, 116);
+    transition: text-shadow 0.6s ease-in-out;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.a:hover {
+    cursor: pointer;
+
+}
+
+.search {
+    float: right;
+    padding: 31px 62px;
+    border-radius: 10px;
+}
+
+.navbar input {
+
+    border: 2px solid rgb(255, 250, 250);
+    box-shadow: 0 8px 16px 0 rgba(240, 240, 237, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+/* .container{
+    margin-top: 10px;
+    padding: 10px 10px;
+
+} */
+.container {
+    border: 0px  solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+/* .profile {
+      
+    box-shadow: 0 8px 8px 0 rgb(243, 243, 240);
+        width: 300px;
+        color: #fff;  
+        text-align: center;
+        border-radius: 10px;
+        
+      } */
+.profile img {
+    border-radius: 50%;
+    margin-left: 50px;
+    border: 5px solid rgb(13, 152, 176);
+    /* box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5);*/
+} 
+.profile img:hover{
+    box-shadow: 0 10px 26px 0 rgba(215, 215, 215, 0.7);
+    transition: box-shadow 0.6s ease-in-out;
+}
+
+
+.wrapper {
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+.wrapper .static.txt {
+
+    margin-top: 100px;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(108, 108, 116);
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.wrapper .dynamic-txts {
+
+
+    margin-top: 110px;
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+
+}
+
+.wrapper .dynamic-txts li {
+
+    color: #FC6D6D;
+    list-style: none;
+    font-size: 80px;
+
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.wrapper .dynamic-txts li span {
+    position: relative;
+}
+
+.wrapper .dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:#06212f;
+    border-left: 4px solid #FC6D6D;
+    animation: typing 1.5s steps(20) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.aboutme {
+
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 25px;
+    /* box-shadow: 0 4px 4px 0 rgba(255, 255, 253, 0.3); */
+    text-align: center;
+   
+
+
+}
+
+
+
+.aboutme h1 {
+    
+    padding: 10px;
+}
+.aboutme h1:hover{
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+}
+
+.Aboutmepara {
+    text-align: left;
+    padding: 20px;
+    line-height: 1.5;
+
+}
+
+.myskills {
+
+    color: #fff;
+    border: 1.5px solid white;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+.myskills h1{
+    padding: 10px;
+    
+}
+
+.myskills h1:hover{
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(251, 251, 255), 0 0 5px rgb(255, 255, 255);
+}
+
+.myskills li {
+    padding-right: 20px;
+    text-align: left;
+}
+
+.myskills p {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+}
+
+.wide {
+    width: 15%;
+}
+
+.p1 {
+    width: 40%;
+    background-color: #b0cdce;
+    text-align: center;
+   
+    
+}
+
+.p2 {
+    width: 15%;
+    background-color: #b0cdce;
+    text-align: center;
+    
+}
+
+.p3 {
+    width: 70%;
+    background-color: #b0cdce;
+    text-align: center;
+   
+}
+
+.p4 {
+    width: 25%;
+    background-color: #b0cdce;
+    text-align: center;
+    
+}
+
+.p5 {
+    width: 50%;
+    background-color: #b0cdce;
+    text-align: center;
+   
+}
+/*Copied from website*/
