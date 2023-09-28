@@ -30,7 +30,7 @@ To get started with Hacktoberfest and contribute to this repository, follow thes
 
 Please adhere to the following guidelines when contributing to this repository:
 
-- Ensure your card is placed in the "students" directory and follows the template provided below.
+- Ensure your card is placed in the `src/pages/{your-year}`` directory and follows the template provided below.
 
 - Your card should include a photo, your name, branch, hobby, and a portfolio link with a button.
 
@@ -43,8 +43,9 @@ Please adhere to the following guidelines when contributing to this repository:
 Use the following template to create your card in the `src/pages/{your-year}` directory:
 
 ```markdown
+  <div class="max-w-xl rounded overflow-hidden shadow-2xl mx-auto  my-8 transform hover:scale-105 transition-transform duration-300 ">
 
- <div class="flex w-full">
+    <div class="flex w-full">
         
           <div class="object-fill w-1/2 ">
           <img  src="{profile-image-url}" alt="Image" class="h-56  object-cover">
@@ -60,6 +61,7 @@ Use the following template to create your card in the `src/pages/{your-year}` di
             ></button>
         </div>
       </div>
+  </div>    
 ```
 
 ## Happy Hacking!
