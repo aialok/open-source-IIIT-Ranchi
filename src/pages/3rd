@@ -1,0 +1,19 @@
+  <div class="max-w-xl rounded overflow-hidden shadow-2xl mx-auto  my-8 transform hover:scale-105 transition-transform duration-300 ">
+
+    <div class="flex w-full">
+        
+          <div class="object-fill w-1/2 ">
+          <img  src="https://photos.app.goo.gl/1of6dRS3ckw9F23i9" alt="Image" class="h-56  object-cover">
+        </div>
+      
+         
+          <div class="w-3/5 p-4 my-auto">
+            <div class="font-bold text-xl mb-2 ">Anurag Narayan Jena</div>
+            <p class="text-gray-700 text-base">ECE</p>
+            <p class="text-gray-700 text-base">Cricket</p>
+            <button class="bg-orange-500 text-black hover:ring-2 hover:ring-orange-500 py-2 px-4 rounded-full mt-6"> <a href="{your-portfolio-link}" target="_blank" class="font-medium"
+              >Portfolio</a
+            ></button>
+        </div>
+      </div>
+  </div>    
