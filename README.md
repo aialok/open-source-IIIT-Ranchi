@@ -72,3 +72,17 @@ We encourage you to explore, learn, and have fun during Hacktoberfest 2023. If y
 Let's make Hacktoberfest 2023 a memorable and productive experience for all IIIT Ranchi students! 🌟
 
 **Happy Hacking!** 🚀
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END 
+
+[![All Contributors](https://img.shields.io/github/all-contributors/aialok/open-source-IIIT-Ranch?color=ee8449&style=flat-square)](#contributors)
+
