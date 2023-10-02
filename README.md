@@ -1,5 +1,5 @@
 # IIIT Ranchi Hacktoberfest 2023 Repository
-###  Give a star to this repo
+###  Give a star to this repo⭐⭐⭐
 
 Welcome to the IIIT Ranchi Hacktoberfest 2023 repository! 🚀
 
@@ -73,27 +73,9 @@ Let's make Hacktoberfest 2023 a memorable and productive experience for all IIIT
 
 **Happy Hacking!** 🚀
 
-## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/aialok"><img src="https://avatars.githubusercontent.com/u/66772290?v=4?s=100" width="100px;" alt="Alok Gupta"/><br /><sub><b>Alok Gupta</b></sub></a><br /><a href="#doc-aialok" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Prakharpandey007"><img src="https://avatars.githubusercontent.com/u/124185531?v=4?s=100" width="100px;" alt="Prakharpandey007"/><br /><sub><b>Prakharpandey007</b></sub></a><br /><a href="#code-Prakharpandey007" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ArionDas"><img src="https://avatars.githubusercontent.com/u/117722561?v=4?s=100" width="100px;" alt="ArionDas"/><br /><sub><b>ArionDas</b></sub></a><br /><a href="#code-ArionDas" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/maneshkoppisetti"><img src="https://avatars.githubusercontent.com/u/123887582?v=4?s=100" width="100px;" alt="Manesh Koppisetti"/><br /><sub><b>Manesh Koppisetti</b></sub></a><br /><a href="#code-maneshkoppisetti" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/akshaydubey05"><img src="https://avatars.githubusercontent.com/u/123586645?v=4?s=100" width="100px;" alt="Akshay Kumar Dubey"/><br /><sub><b>Akshay Kumar Dubey</b></sub></a><br /><a href="#code-akshaydubey05" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-</table>
+## Thanks to all the contributors ❤️
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+<img src="https://contrib.rocks/image?repo=aialok/open-source-IIIT-Ranchi"/>
 
-<!-- ALL-CONTRIBUTORS-LIST:END 
-
-[![All Contributors](https://img.shields.io/github/all-contributors/aialok/open-source-IIIT-Ranch?color=ee8449&style=flat-square)](#contributors)
 
