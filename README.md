@@ -1,5 +1,5 @@
 # IIIT Ranchi Hacktoberfest 2023 Repository
-###  Give a star to this repo
+###  Give a star to this repo⭐⭐⭐
 
 Welcome to the IIIT Ranchi Hacktoberfest 2023 repository! 🚀
 
@@ -72,3 +72,7 @@ We encourage you to explore, learn, and have fun during Hacktoberfest 2023. If y
 Let's make Hacktoberfest 2023 a memorable and productive experience for all IIIT Ranchi students! 🌟
 
 **Happy Hacking!** 🚀
+
+## Thanks to all the contributors ❤️
+
+<img src="https://contrib.rocks/image?repo=aialok/open-source-IIIT-Ranchi"/>
