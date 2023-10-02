@@ -1,0 +1,57 @@
+{
+  "projectName": "open-source-IIIT-Ranchi",
+  "projectOwner": "aialok",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "aialok",
+      "name": "Alok Gupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66772290?v=4",
+      "profile": "https://github.com/aialok",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Prakharpandey007",
+      "name": "Prakharpandey007",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124185531?v=4",
+      "profile": "https://github.com/Prakharpandey007",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ArionDas",
+      "name": "ArionDas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117722561?v=4",
+      "profile": "https://github.com/ArionDas",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "maneshkoppisetti",
+      "name": "Manesh Koppisetti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123887582?v=4",
+      "profile": "https://github.com/maneshkoppisetti",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "akshaydubey05",
+      "name": "Akshay Kumar Dubey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123586645?v=4",
+      "profile": "https://github.com/akshaydubey05",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}

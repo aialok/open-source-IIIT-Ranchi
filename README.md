@@ -73,6 +73,9 @@ Let's make Hacktoberfest 2023 a memorable and productive experience for all IIIT
 
 **Happy Hacking!** 🚀
 
+
 ## Thanks to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=aialok/open-source-IIIT-Ranchi"/>
+
+
