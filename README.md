@@ -1,5 +1,5 @@
 # IIIT Ranchi Hacktoberfest 2023 Repository
-###  Give a star to this repo
+###  Give a star to this repo⭐⭐⭐
 
 Welcome to the IIIT Ranchi Hacktoberfest 2023 repository! 🚀
 
@@ -44,25 +44,27 @@ Please adhere to the following guidelines when contributing to this repository:
 Use the following template to create your card in the `src/pages/{your-year}` directory:
 
 ```markdown
-  <div class="max-w-xl rounded overflow-hidden shadow-2xl mx-auto  my-8 transform hover:scale-105 transition-transform duration-300 ">
+   <div class="max-w-xs rounded overflow-hidden shadow-2xl   my-8 transform hover:scale-105 transition-transform duration-300 ">
 
-    <div class="flex w-full">
-        
-          <div class="object-fill w-1/2 ">
-          <img  src="{profile-image-url}" alt="Image" class="h-56  object-cover">
-        </div>
       
-         
+      <div class="flex w-full">
+        <div class="w-1/2">
+          <div class="h-56 bg-gray-300">
+            <img src={Your-image-url} class="h-full w-full object-cover">
+          </div>
+        </div>
+        
           <div class="w-3/5 p-4 my-auto">
-            <div class="font-bold text-xl mb-2 ">{Your-Name}</div>
-            <p class="text-gray-700 text-base">{Your-Branch}</p>
-            <p class="text-gray-700 text-base">{Your-Hobby}</p>
-            <button class="bg-orange-500 text-black hover:ring-2 hover:ring-orange-500 py-2 px-4 rounded-full mt-6"> <a href="{your-portfolio-link}" target="_blank" class="font-medium"
+            <div class="font-bold text-xl mb-2 ">{Your Name}</div>
+            <p class="text-gray-700 text-base">{Your Branch}</p>
+            <p class="text-gray-700 text-base">{Your Hobbies}</p>
+            <button class="bg-orange-500 text-black hover:ring-2 hover:ring-orange-500 py-2 px-4 rounded-full mt-6"> <a href={Your-portfolio-link} target="_blank" class="font-medium"
               >Portfolio</a
             ></button>
         </div>
       </div>
-  </div>    
+     
+    </div>
 ```
 
 ## Happy Hacking!
@@ -72,3 +74,10 @@ We encourage you to explore, learn, and have fun during Hacktoberfest 2023. If y
 Let's make Hacktoberfest 2023 a memorable and productive experience for all IIIT Ranchi students! 🌟
 
 **Happy Hacking!** 🚀
+
+
+## Thanks to all the contributors ❤️
+
+<img src="https://contrib.rocks/image?repo=aialok/open-source-IIIT-Ranchi"/>
+
+
