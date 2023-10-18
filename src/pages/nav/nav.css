@@ -5,17 +5,17 @@
  /* Navbar container */
  .navbar {
    overflow: hidden;
-   background-color: #333;
+   background-color: #333333;
    font-family: Arial;
  }
 
  /* Links inside the navbar */
  .navbar a {
    float: left;
-   font-size: 15px;
+   font-size: 16px;
    color: white;
    text-align: center;
-   padding: 14px 15px;
+   padding: 14px 16px;
    text-decoration: none;
  }
 
@@ -42,7 +42,7 @@
    position: absolute;
    background-color: #f9f9f8;
    min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.23);
    z-index: 1;
  }
 
@@ -50,7 +50,7 @@
  .dropdown-content a {
    float: none;
    color: black;
-   padding: 13px 15px;
+   padding: 12px 16px;
    text-decoration: none;
    display: block;
    text-align: left;
@@ -66,7 +66,7 @@
    display: block;
  }
 
- @media screen and (max-width : 660px) {
+ @media screen and (max-width : 666px) {
    #mobile_ui {
      display: none;
    }
