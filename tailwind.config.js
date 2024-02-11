@@ -4,7 +4,5 @@ module.exports = {
     theme: {
       extend: {},
     },
-    plugins: [
-      require('tailwindcss-transforms')
-    ],
+    plugins: [],
   }
