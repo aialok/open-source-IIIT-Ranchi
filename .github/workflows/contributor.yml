@@ -1,0 +1,26 @@
+name: Fetch-Contributor-List
+
+on:
+  workflow_dispatch:
+
+# Fetch contributor list and add to community.json    
+jobs:
+    fetch-contributor-list:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+    
+        - name: Fetch Contributors and 
+          run: |
+            curl -s https://api.github.com/repos/aialok/open-source-IIIT-Ranchi/contributors | jq '[.[] | { id: .id, img: .avatar_url, alt: .login, github_url : .html_url }]' > community.json
+
+    
+        - name: Commit Contributor List
+          run: |
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            git add community.json
+            git commit -m "Update community.json"
+            git push
+            
