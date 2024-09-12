@@ -10,41 +10,46 @@
 </head>
 
 <body>
-  <navbar class="flex justify-around items-center overflow-auto max-sm:flex-col">
-    <brand-name class="text-xl font-bold max-sm:text-lg">Open Source IIIT Ranchi</brand-name>
-    <ul id="mobile_ui" class="flex text-lg max-sm:text-base font-medium">
-      <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
+  <navbar class="flex justify-between items-center overflow-auto mx-3">
+  <brand-name class="text-xl font-bold max-sm:text-lg">Open Source IIIT Ranchi</brand-name>
+
+  <ul id="mobile_ui" class="flex text-lg max-sm:text-base font-medium">
+    <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
+      <a href="/index.html">Home</a>
+    </li>
+    <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
+      <a href="src/pages/freshers.html">Fresher</a>
+    </li>
+    <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
+      <a href="src/pages/sophomore.html">Sophomore</a>
+    </li>
+    <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
+      <a href="src/pages/third-year.html">Third Year</a>
+    </li>
+    <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
+      <a href="src/pages/senior.html">Senior</a>
+    </li>
+  </ul>
+
+  <!-- Dropdown Button (shown on mobile) -->
+  <div id="dropdown" class="max-sm:hidden ml-auto">
+    <div class="dropdown">
+      <button class="dropbtn hover:bg-orange-500">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
         <a href="/index.html">Home</a>
-      </li>
-      <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
         <a href="src/pages/freshers.html">Fresher</a>
-      </li>
-      <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
         <a href="src/pages/sophomore.html">Sophomore</a>
-      </li>
-      <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
         <a href="src/pages/third-year.html">Third Year</a>
-      </li>
-      <li class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
         <a href="src/pages/senior.html">Senior</a>
-      </li>
-    </ul>
-    <ul class="flex text-lg max-sm:text-base font-medium">
-      <li id="dropdown" class="hover:bg-orange-500 p-4 max-sm:p-1 cursor-pointer">
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="/index.html">Home</a>
-            <a href="src/pages/freshers.html">Fresher</a>
-            <a href="src/pages/sophomore.html">Sophomore</a>
-            <a href="src/pages/third-year.html">Third Year</a>
-            <a href="src/pages/senior.html">Senior</a>
-          </div>
-        </div>
-      </li>
-    </ul>
+      </div>
+    </div>
+  </div>
+</navbar>
+
+</navbar>
+
 
   </navbar>
 
