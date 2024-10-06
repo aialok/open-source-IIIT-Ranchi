@@ -1,4 +1,4 @@
-# IIIT Ranchi Hacktoberfest 2023 Repository
+# OPEN FOR ALL
 ###  Give a star to this repo⭐⭐⭐
 
 Welcome to the IIIT Ranchi Hacktoberfest 2023 repository! 🚀
